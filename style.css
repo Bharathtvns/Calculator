@@ -8,7 +8,7 @@
   font-size:xx-large ;
 }
 body{
-  background-image: url('/math.jpg');
+  background-image: math.jpg;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
