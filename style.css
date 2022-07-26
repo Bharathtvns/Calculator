@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.heading{
+  color: white;
+  font-size:xx-large ;
+}
+body{
+  background-image: url('/math.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.buttons{
+  color: black;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+.all{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.display {
+  text-align: right;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(182, 182, 182);
+  padding: 20px;
+  font-size: 35px;
+  position: relative;
+}
+
+.display_1{
+  opacity: 0.5;
+  font-size: 25px;
+  color: black;
+}
+
+.temp_result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 25px;
+  opacity: 0.4;
+}
+
+.button {
+  border: 0.5px solid rgba(92, 92, 92, 0.137);
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(30, 43, 46);
+  transform: scale(1.1);
+  color: white;
+}
+.btn-0 {
+  grid-column: 1/3;
+}
+
